@@ -31,6 +31,7 @@ Ou alors, depuis CLI :
 - pip install --upgrade jupyter nbconvert
 - pip install pandas seaborn matplotlib
 - pip install scikit-learn
+- sudo apt-get install python3-tk
 
 --> Executer le notebook :
 - jupyter nbconvert --to notebook --execute projet_desvoy_maching_learning.ipynb --output result.ipynb
