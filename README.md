@@ -35,4 +35,4 @@ Executer ensuite cette commande :
 
 --> Exécuter le Script Python :
 - jupyter nbconvert --to script projet_desvoy_maching_learning.ipynb
-- python projet_desvoy_maching_learning.py
+- python projet_desvoy_maching_learning.txt
