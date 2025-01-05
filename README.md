@@ -20,11 +20,17 @@ Ou alors, depuis CLI :
 (si python n'est pas installé : - sudo apt install python3 python3-pip -y)
 - python -m venv venv
 - source venv/bin/activate
-- pip install -r requirement.txt
+- pip install -r requirements.txt
     
 --> Executer le notebook :
+(si probleme d'installation de package veuillez à suivre les 5 prochains lignes)
 - sudo apt install jupyter-core
 - pip install nbconvert
+- pip install --upgrade jupyter nbconvert
+- pip install pandas seaborn matplotlib
+- pip install scikit-learn
+
+Executer ensuite cette commande :
 - jupyter nbconvert --to notebook --execute projet_desvoy_maching_learning.ipynb --output result.ipynb
 
 --> Exécuter le Script Python :
