@@ -18,7 +18,7 @@ Ou alors, depuis CLI :
 
 --> créer un environnement virtuel :
 (si python n'est pas installé : - sudo apt install python3 python3-pip -y)
-- python -m venv venv
+- python3 -m venv venv
 - source venv/bin/activate
 - pip install -r requirements.txt
     
