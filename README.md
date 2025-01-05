@@ -9,7 +9,8 @@ légende :
 
 méthode d'utilisation :
 
---> Téléchargez le git et mettez le dans un répertoire facile d'accès.
+--> Téléchargez le git et mettez le dans un répertoire facile d'accès. 
+Ou alors, depuis CLI : - git clone https://github.com/Zapphyr/Projet_machine_learning.git
 
 --> en CLI : accédez à votre dossier cloné via un - cd "nom-du-repertoire"
 
