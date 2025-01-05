@@ -10,18 +10,20 @@ légende :
 méthode d'utilisation :
 
 --> Téléchargez le git et mettez le dans un répertoire facile d'accès. 
-Ou alors, depuis CLI : - git clone https://github.com/Zapphyrr/Projet_machine_learning.git
+Ou alors, depuis CLI : 
+- git clone https://github.com/Zapphyrr/Projet_machine_learning.git
 
---> en CLI : accédez à votre dossier cloné via un - cd "nom-du-repertoire"
+--> en CLI : accédez à votre dossier cloné via un 
+- cd Projet_machine_learning
 
 --> créer un environnement virtuel :
-    - python -m venv venv
-    - source venv/bin/activate
-    - pip install -r requirements.txt
+- python -m venv venv
+- source venv/bin/activate
+- pip install -r requirements.txt
     
 --> Executer le notebook :
-    - jupyter nbconvert --to notebook --execute projet_desvoy_maching_learning.ipynb --output result.ipynb
+- jupyter nbconvert --to notebook --execute projet_desvoy_maching_learning.ipynb --output result.ipynb
 
 --> Exécuter le Script Python :
-    - jupyter nbconvert --to script projet_desvoy_maching_learning.ipynb
-    - python projet_desvoy_maching_learning.py
+- jupyter nbconvert --to script projet_desvoy_maching_learning.ipynb
+- python projet_desvoy_maching_learning.py
