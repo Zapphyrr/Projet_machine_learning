@@ -33,9 +33,9 @@ Ou alors, depuis CLI :
 - pip install scikit-learn
 - sudo apt-get install python3-tk
 
---> Executer le notebook :
-- jupyter nbconvert --to notebook --execute projet_desvoy_maching_learning.ipynb --output result.ipynb
-
 --> Exécuter le Script Python :
 - jupyter nbconvert --to script projet_desvoy_maching_learning.ipynb
 - python projet_desvoy_maching_learning.txt
+
+--> (optionnel) Si vous souhaitez lancer et enregistrer la sortie dans un fichier en executant le notebook :
+- jupyter nbconvert --to notebook --execute projet_desvoy_maching_learning.ipynb --output result.ipynb
