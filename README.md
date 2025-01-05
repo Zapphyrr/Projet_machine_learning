@@ -17,11 +17,14 @@ Ou alors, depuis CLI :
 - cd Projet_machine_learning
 
 --> créer un environnement virtuel :
+(si python n'est pas installé : - sudo apt install python3 python3-pip -y)
 - python -m venv venv
 - source venv/bin/activate
-- pip install -r requirements.txt
+- pip install -r requirement.txt
     
 --> Executer le notebook :
+- sudo apt install jupyter-core
+- pip install nbconvert
 - jupyter nbconvert --to notebook --execute projet_desvoy_maching_learning.ipynb --output result.ipynb
 
 --> Exécuter le Script Python :
